@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+    <link rel="icon" href="IMG/favicon.ico" type="image/png">
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center; /* centreren van alle tekst */
+      }
+
+      nav {
+        background-color: black;
+        padding: 10px 0;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        position: sticky;
+        top: 0;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+
+      .navbar a:hover {
+        color: limegreen;
+      }
+
+      h1 {
+        margin-top: 40px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .ik {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .info-section {
+        margin-top: 40px;
+      }
+
+      .info-section h2 {
+        color: black;
+      }
+
+      .info-section p {
+        margin: 5px 0 20px;
+      }
+
+      .info-section p:hover {
+        color: limegreen;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+     <nav>
+      <a href="index.html">Startpagina</a>
+      <a href="hobbys.html">Hobby's</a>
+      <a href="ervaring.html">Ervaring</a>
+      <a href="curriculum Vitae.html">CV</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Niels Deckx</h1>
+
+    <div class="container">
+      <img class="ik" src="IMG/eigenfoto.jpg" alt="Foto van mij" />
+    </div>
+
+    <div class="info-section">
+      <h2>Hobby's/Interesses</h2>
+      <p>Voor mijn hobby's klik <a href="hobbys.html">hier</a>.</p>
+
+      <h2>Ervaringen</h2>
+      <p>Voor mijn ervaringen klik <a href="ervaring.html">hier</a>.</p>
+
+      <h2>Curriculum Vitae</h2>
+      <p>Voor mijn CV klik <a href="cv.html">hier</a>.</p>
+
+      <h2>Contact</h2>
+      <p>Om contact op te nemen klik <a href="contact.html">hier</a>.</p>
+    </div>
+  </body>
+</html>
